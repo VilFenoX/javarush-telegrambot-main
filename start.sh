@@ -15,4 +15,6 @@ export BOT_NAME=$1
 export BOT_TOKEN=$2
 
 # Start new deployment
-docker-compose up --build -d
+docker-compose -f docker-compose-test.yml up -d
+
+docker-compose -f docker-compose-test.yml logs
