@@ -6,7 +6,7 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_DB: "postgres2"
+      POSTGRES_DB: "postgres"
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
 
