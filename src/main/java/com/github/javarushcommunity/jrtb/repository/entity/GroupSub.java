@@ -12,7 +12,7 @@ import static java.util.Objects.isNull;
 @Data
 @Entity
 @Table(name = "group_sub")
-@EqualsAndHashCode
+@EqualsAndHashCode(exclude = "users")
 public class GroupSub {
 
     @Id
@@ -21,8 +21,8 @@ public class GroupSub {
     @Column(name = "title")
     private String title;
 
-    @Column(name = "last_article_id")
-    private Integer lastArticleId;
+    @Column(name = "last_post_id")
+    private Integer lastPostId;
 
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(
