@@ -37,8 +37,8 @@ public class CommandContainer {
                         new AddGroupSubCommand(sendBotMessageService, javaRushGroupClient, groupSubService))
                 .put(LIST_GROUP_SUB.getCommandName(),
                         new ListGroupSubCommand(sendBotMessageService, telegramUserService))
-//                .put(DELETE_GROUP_SUB.getCommandName(),
-//                       new DeleteGroupSubCommand(sendBotMessageService, groupSubService, telegramUserService))
+                .put(DELETE_GROUP_SUB.getCommandName(),
+                       new DeleteGroupSubCommand(sendBotMessageService, groupSubService, telegramUserService))
 //                .put(ADMIN_HELP.getCommandName(), new AdminHelpCommand(sendBotMessageService))
                 .build();
 

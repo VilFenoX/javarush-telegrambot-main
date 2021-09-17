@@ -7,10 +7,9 @@ services:
     build:
       context: .
     environment:
-      - BOT_NAME=${BOT_NAME}
-      - BOT_TOKEN=${BOT_TOKEN}
-      - BOT_DB_USERNAME=${BOT_DB_USERNAME}
-      - BOT_DB_PASSWORD=${BOT_DB_PASSWORD}
+      - BOT_NAME=CFGames_bot
+      - BOT_TOKEN=1887804860:AAFAI8p1-t6WWwKeyJdHNXa_8du2rRx32Js
+
     restart: always
   db:
     image: postgres
