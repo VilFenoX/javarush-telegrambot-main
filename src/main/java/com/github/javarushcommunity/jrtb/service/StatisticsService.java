@@ -1,7 +1,7 @@
 package com.github.javarushcommunity.jrtb.service;
 
 
-import com.github.javarushcommunity.jrtb.javarushclient.dto.StatisticDTO;
+import com.github.javarushcommunity.jrtb.dto.StatisticDTO;
 
 /**
  * Service for getting bot statistics.

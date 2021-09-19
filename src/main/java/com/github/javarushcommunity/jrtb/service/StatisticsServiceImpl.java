@@ -1,7 +1,7 @@
 package com.github.javarushcommunity.jrtb.service;
 
-import com.github.javarushcommunity.jrtb.javarushclient.dto.GroupStatDTO;
-import com.github.javarushcommunity.jrtb.javarushclient.dto.StatisticDTO;
+import com.github.javarushcommunity.jrtb.dto.GroupStatDTO;
+import com.github.javarushcommunity.jrtb.dto.StatisticDTO;
 import com.github.javarushcommunity.jrtb.repository.entity.TelegramUser;
 import org.springframework.stereotype.Service;
 

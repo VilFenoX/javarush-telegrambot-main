@@ -39,7 +39,7 @@ public class CommandContainer {
                         new ListGroupSubCommand(sendBotMessageService, telegramUserService))
                 .put(DELETE_GROUP_SUB.getCommandName(),
                        new DeleteGroupSubCommand(sendBotMessageService, groupSubService, telegramUserService))
-//                .put(ADMIN_HELP.getCommandName(), new AdminHelpCommand(sendBotMessageService))
+                .put(ADMIN_HELP.getCommandName(), new AdminHelpCommand(sendBotMessageService))
                 .build();
 
         unknownCommand = new UnknownCommand(sendBotMessageService);

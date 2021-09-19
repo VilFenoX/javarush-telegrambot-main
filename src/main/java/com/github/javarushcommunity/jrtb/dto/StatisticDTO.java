@@ -1,4 +1,4 @@
-package com.github.javarushcommunity.jrtb.javarushclient.dto;
+package com.github.javarushcommunity.jrtb.dto;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

@@ -1,7 +1,7 @@
 package com.github.javarushcommunity.jrtb.command;
 
-import com.github.javarushcommunity.jrtb.javarushclient.dto.GroupStatDTO;
-import com.github.javarushcommunity.jrtb.javarushclient.dto.StatisticDTO;
+import com.github.javarushcommunity.jrtb.dto.GroupStatDTO;
+import com.github.javarushcommunity.jrtb.dto.StatisticDTO;
 import com.github.javarushcommunity.jrtb.service.SendBotMessageService;
 import com.github.javarushcommunity.jrtb.service.StatisticsService;
 import org.junit.jupiter.api.BeforeEach;
